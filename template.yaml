@@ -31,7 +31,7 @@ Resources:
       CodeUri: src/getWelcomePage
       Handler: Handler::handler
       Runtime: java8
-      MemorySize: 3008
+      MemorySize: 1600
       Timeout: 30
       Tracing: Active
       Policies:
