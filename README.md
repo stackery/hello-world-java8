@@ -19,6 +19,7 @@ Here is an overview of the files:
 │   ├── getWelcomePage                 <-- Source code dir for getWelcomePage function
 │   │   ├── README.md                  <-- Function specific README
 │   │   ├── build.gradle               <-- Gradle dependencies
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │   │   └── src
 │   │       └── main
 │   │           ├── java
@@ -28,10 +29,12 @@ Here is an overview of the files:
 │   └── logErrors                      <-- Source code dir for logErrors function
 │       ├── README.md                  <-- Function specific README
 │       ├── build.gradle               <-- Gradle dependencies
+│   │   ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │       └── src
 │           └── main
 │               └── java
 │                   └── Handler.java   <-- Lambda function code
+├── .stackery-config.yaml              <-- Default CLI parameters for root directory
 └── template.yaml                      <-- SAM infrastructure-as-code template
 ```
 
